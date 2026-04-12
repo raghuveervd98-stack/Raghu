@@ -1,0 +1,22 @@
+{
+	"name": "csvFiles",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkederviceDLraghu",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "funda"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "csvfiles",
+				"fileSystem": "source"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

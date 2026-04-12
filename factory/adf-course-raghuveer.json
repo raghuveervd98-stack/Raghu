@@ -1,0 +1,9 @@
+{
+	"name": "adf-course-raghuveer",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "14e130c6-924f-4012-a191-f26f5fda846c",
+		"tenantId": "bdd48dee-9cb2-4aa6-953d-caf98317b1e9"
+	}
+}

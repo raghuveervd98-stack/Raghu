@@ -1,0 +1,21 @@
+{
+	"name": "ds_air_port_source",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lsadfraghu",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "DimAirport.json",
+				"folderPath": "webapi",
+				"fileSystem": "bronze"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

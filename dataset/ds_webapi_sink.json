@@ -1,0 +1,20 @@
+{
+	"name": "ds_webapi_sink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lsadfraghu",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "webapi",
+				"fileSystem": "bronze"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

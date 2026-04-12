@@ -1,0 +1,24 @@
+{
+	"name": "manTrigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "prodPipeline",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/source/blobs/csvfiles/fact_data.csv",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/b5b242a8-0b0a-4011-956c-44903ee5ccd3/resourceGroups/Azurefundamentals/providers/Microsoft.Storage/storageAccounts/azurefundastorageraghu",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
